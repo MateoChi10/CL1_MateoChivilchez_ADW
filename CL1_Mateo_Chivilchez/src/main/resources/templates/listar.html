@@ -26,10 +26,10 @@
 			<tbody>
 				<tr th:each="reg:${clientes}">
 					<td th:text="${reg.idcliente}"></td>
-					<td th:text="${reg.nombres}"></td>
-					<td th:text="${reg.apellidos}"></td>
+					<td th:text="${reg.nombre}"></td>
+					<td th:text="${reg.apellido}"></td>
 					<td th:text="${reg.correo}"></td>
-					<td th:text="${reg.fechaNacimiento}"></td>
+					<td th:text="${reg.fechanacimiento}"></td>
 					<td th:text="${reg.dni}"></td>
 					<td th:text="${reg.idcategoria}"></td>
 				</tr>
